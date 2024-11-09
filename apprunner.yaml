@@ -13,6 +13,6 @@ run:
     - pip3 install gunicorn
     - pip3 install -r requirements.txt
     - which gunicorn
-  command: gunicorn myproject.wsgir:application
+  command: gunicorn myproject.wsgi:application
   network:
     port: 8000
